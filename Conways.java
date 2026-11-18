@@ -4,7 +4,7 @@ public class Conways {
     
     public Conways(Grid grid) {
         this.grid = grid;
-        this.sideLength = grid[0].length;
+        this.sideLength = grid.getGridRow(0).length;
 
         runSimulation(this.grid);
     }
